@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.example.com/birthday-background.jpg'); /* Replace with your birthday-themed image */
+    background-size: cover;
+    background-position: center;
+    color: #ce2020;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #FF69B4; /* Pink color */
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #FF6347; /* Tomato color */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #FF4500; /* OrangeRed color */
+}
+
+#prompt-container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+#response-container {
+    margin-top: 20px;
+}
+
+#response-text {
+    font-size: 1.5em;
+    color: #FFD700; /* Gold color */
+}
+
+button {
+    background-color: #FF6347; /* Tomato color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FF4500; /* OrangeRed color */
+}

@@ -1,0 +1,12 @@
+Packages are used to organize related classes and interfaces, avoid naming conflicts, provide access control, and promote code reusability.
+
+Basic Info:
+- A package is a namespace for organizing classes and interfaces in a logical manner.
+- Packages help to avoid class name conflicts.
+- They provide controlled access to classes and interfaces.
+- Packages can be nested within other packages.
+- The `import` statement is used to include classes from other packages.
+- The `package` statement defines the package name at the beginning of a source file.
+- Nesting of folders also included but need to change commands while compiling like below:
+    PS C:\JavaPrac\OOPS> javac Packages/folderA/innerFolderA/P2.java Packages/folderA/Pri
+ncipal.java Packages/MyClass.java
