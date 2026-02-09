@@ -19,6 +19,7 @@ public class InnerClass1 {
         System.out.println("-------------------------");
         System.out.println("Accessing College Name: " + clg1.collegeName);
         System.out.println("Accessing Teacher Name: " + teacher1.teacherName);
+        // System.out.println(teacher1.collegeName);
     }
 }
 
