@@ -16,8 +16,8 @@ public class GraphCreate {
 
     */
 
-    public static ArrayList<Edge>[] createGraph(int v) {
-
+    public static ArrayList<Edge>[] createGraph() {
+        int v = 7; // Number of vertices
         ArrayList<Edge>[] graph = new ArrayList[v];
 
         for(int i = 0; i < v; i++) {
